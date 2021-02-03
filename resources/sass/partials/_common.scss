@@ -24,7 +24,11 @@ outline: none;
   flex-direction: row;
   justify-content: center;
 }
+.flex_row {
+  display: flex;
+  flex-direction: row;
 
+}
 .margin_15 {
   margin: 0 15% 0 15%;
 } 

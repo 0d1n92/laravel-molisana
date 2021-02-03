@@ -43,6 +43,11 @@ textarea:focus {
   justify-content: center;
 }
 
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
 .margin_15 {
   margin: 0 15% 0 15%;
 }
@@ -70,7 +75,26 @@ header #header_bottom ul#navbar > li a {
 }
 
 main #container_products {
+  padding-top: 30px;
   background: url("/../../img/bg_products.jpg");
   max-height: 1746px;
   min-height: 500px;
+}
+main #container_products h2.titolo_card {
+  color: #002d73;
+  margin: 30px;
+  font-weight: 600;
+}
+main #container_products #container_pasta {
+  flex-wrap: wrap;
+}
+main #container_products #container_pasta .card_pasta {
+  width: calc( 100% / 3 - 10px );
+}
+main #container_products #container_pasta .card_pasta img {
+  height: 230px;
+}
+
+footer {
+  max-height: 800px;
 }

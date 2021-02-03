@@ -1,9 +1,27 @@
 main {
-  
-  
+ 
   #container_products {
+    padding-top: 30px ;
     background: url("#{$bgProducts}");
     max-height: 1746px;
     min-height: 500px;
+     h2.titolo_card {
+    color: #002d73;
+    margin: 30px;
+    font-weight: 600;
   }
+  
+    #container_pasta{
+      flex-wrap: wrap;
+      .card_pasta {
+
+        width: calc( 100% / 3 - 10px );
+       img {
+         height: 230px;
+       }
+        
+      }
+    }
+  }
+
 }

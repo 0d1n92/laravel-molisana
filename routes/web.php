@@ -15,6 +15,25 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     include __DIR__."/database.php";
+    
+    $lunghe = [];
+    $corte = [];
+    $cortissime = [];
 
-    return view('prodotti');
+    foreach ($data as $pasta) {
+    
+      if($pasta["tipo"]=="corta") {
+        $corte[]= $pasta;
+      } elseif ($pasta["tipo"]=="cortissima"){
+          $cortissime[]= $pasta;
+      } elseif ($pasta["tipo"]=="lunga"){
+          $lunghe[]= $pasta;
+      }
+    }
+    
+    return view('prodotti', [
+      "lunghe"=>$lunghe,
+      "corte"=>$corte,
+      "cortissime"=>$cortissime
+    ]);
 });
