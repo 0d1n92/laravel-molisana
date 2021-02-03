@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     include __DIR__."/database.php";
 
-    return view('home');
+    return view('prodotti');
 });

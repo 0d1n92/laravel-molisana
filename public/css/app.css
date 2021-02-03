@@ -43,6 +43,10 @@ textarea:focus {
   justify-content: center;
 }
 
+.margin_15 {
+  margin: 0 15% 0 15%;
+}
+
 header .active_nav {
   background-color: #b2e5fc;
 }
@@ -63,4 +67,10 @@ header #header_bottom ul#navbar > li a {
   padding: 22px 10px 22px 10px;
   text-decoration: none;
   font-weight: 600;
+}
+
+main #container_products {
+  background: url("/../../img/bg_products.jpg");
+  max-height: 1746px;
+  min-height: 500px;
 }

@@ -9,7 +9,9 @@
 </head>
 <body>
  @include('partials.header')
-
+  <main>
+    @yield('lists_products')
+  </main>
   @include('partials.footer')
 </body>
 </html>
