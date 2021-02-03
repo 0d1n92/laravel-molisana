@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap);
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.nav_items > a {
+  font-size: 26px;
+  color: black;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  border: 0;
+}
+
+select:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  border: 0;
+  outline: none;
+}
+
+/*RESET CLOSE*/
+.flex_row_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header .active_nav {
+  background-color: #b2e5fc;
+}
+header #header_top {
+  height: 250px;
+}
+header #header_top #header_logo {
+  height: 100%;
+  align-items: center;
+}
+header #header_bottom ul#navbar > li {
+  list-style: none;
+  margin-right: 15px;
+}
+header #header_bottom ul#navbar > li a {
+  height: 100%;
+  display: block;
+  padding: 22px 10px 22px 10px;
+  text-decoration: none;
+  font-weight: 600;
+}

@@ -1,0 +1,30 @@
+header {
+  .active_nav {
+    background-color: #b2e5fc;
+  }
+  #header_top {
+    height: 250px;
+    
+    #header_logo {
+      height: 100%;
+      align-items: center;
+    }
+  }
+  #header_bottom {
+    
+    
+    ul#navbar > li {
+      list-style: none;
+      margin-right: 15px;
+      
+      
+      a {
+        height: 100%;
+        display: block;
+        padding: 22px 10px 22px 10px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+    }
+  }
+}

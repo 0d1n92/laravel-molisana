@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     include __DIR__."/database.php";
-    dd($data);
-    return view('welcome');
+
+    return view('home');
 });
