@@ -19,6 +19,7 @@
       </div>
       <div class="col_items_footer">
         <ul class="items_footer">
+          <li><h4>PASTIFICIO</h4></li>
           <li><a href="#">Il Pastificio</a></li>
           <li><a href="#">Grano decorticato a pietra</a></li>
           <li><a href="#">Il Molise c'è</a></li>
@@ -29,6 +30,7 @@
           <li><a href="#">Le persone</a></li>
         </ul>
         <ul class="items_footer"s>
+          <li><h4>PRODOTTI</h4></li>
           <li><a href="#">Il Pastificio</a></li>
           <li><a href="#">Grano decorticato a pietra</a></li>
           <li><a href="#">Il Molise c'è</a></li>
@@ -41,6 +43,7 @@
       </div>
        <div class="col_items_footer">
         <ul class="items_footer">
+          <li><h4>COLLEZIONI DA CHEF</h4></li>
           <li><a href="#">Il Pastificio</a></li>
           <li><a href="#">Grano decorticato a pietra</a></li>
           <li><a href="#">Il Molise c'è</a></li>

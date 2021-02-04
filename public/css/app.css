@@ -99,6 +99,7 @@ main #container_products #container_pasta .card_pasta img {
 }
 
 footer {
+  color: #848d9b;
   background-image: url("/img/footer-montagne-bottom.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -110,6 +111,7 @@ footer ul.items_footer {
 }
 footer ul.items_footer a {
   text-decoration: none;
+  color: #848d9b;
 }
 footer .flex_row {
   justify-content: flex-start;
@@ -119,4 +121,12 @@ footer .col_items_footer {
 }
 footer .col_items_footer ul.items_footer {
   margin-top: 30px;
+}
+footer .col_items_footer ul.items_footer > li > h4 {
+  margin-bottom: 14px;
+  font-size: 20px;
+}
+footer .col_items_footer ul.items_footer > li > a {
+  display: block;
+  margin-bottom: 8px;
 }

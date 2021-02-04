@@ -1,4 +1,5 @@
 footer {
+  color: #848d9b;
   background-image: url("/img/footer-montagne-bottom.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -8,6 +9,7 @@ footer {
     @include style_none;
     a {
       text-decoration: none;
+      color:#848d9b;
     }
   }
   .flex_row {
@@ -17,6 +19,16 @@ footer {
     width: calc(100%/3);
      ul.items_footer {
        margin-top: 30px;
+       >li{
+         >h4 {
+         margin-bottom: 14px;
+         font-size: 20px;
+       }
+       >a{
+         display: block;
+          margin-bottom: 8px;
+       }
+      }
      }
   }
  
