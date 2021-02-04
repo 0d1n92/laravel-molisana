@@ -48,8 +48,8 @@ textarea:focus {
   flex-direction: row;
 }
 
-.margin_15 {
-  margin: 0 15% 0 15%;
+.margin_10 {
+  margin: 0 5% 0 5%;
 }
 
 header .active_nav {
@@ -89,7 +89,9 @@ main #container_products #container_pasta {
   flex-wrap: wrap;
 }
 main #container_products #container_pasta .card_pasta {
-  width: calc( 100% / 3 - 10px );
+  margin-right: 10px;
+  width: calc( 100% / 3 - 30px );
+  min-width: 384px;
 }
 main #container_products #container_pasta .card_pasta img {
   height: 230px;
@@ -97,4 +99,19 @@ main #container_products #container_pasta .card_pasta img {
 
 footer {
   max-height: 800px;
+}
+footer ul.items_footer {
+  list-style: none;
+}
+footer ul.items_footer a {
+  text-decoration: none;
+}
+footer .flex_row {
+  justify-content: flex-start;
+}
+footer .col_items_footer {
+  width: calc(100%/3);
+}
+footer .col_items_footer ul.items_footer {
+  margin-top: 30px;
 }

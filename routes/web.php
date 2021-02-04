@@ -36,4 +36,4 @@ Route::get('/', function () {
       "corte"=>$corte,
       "cortissime"=>$cortissime
     ]);
-});
+}) ->name('prodotti'); //nome pagina

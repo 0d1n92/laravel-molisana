@@ -14,10 +14,12 @@ main {
     #container_pasta{
       flex-wrap: wrap;
       .card_pasta {
-
-        width: calc( 100% / 3 - 10px );
+         margin-right: 10px;
+        width: calc( 100% / 3 - 30px );
+        min-width: 384px;
        img {
          height: 230px;
+        
        }
         
       }

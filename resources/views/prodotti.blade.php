@@ -1,7 +1,7 @@
 @extends('layouts.layout_page1')
 @section('lists_products')
 <div id="container_products">
-  <div class="margin_15">
+  <div class="margin_10">
     <h2 class="titolo_card">LE LUNGHE</h2> 
     <div id="container_pasta" class="flex_row"> 
       

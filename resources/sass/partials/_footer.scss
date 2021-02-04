@@ -1,3 +1,20 @@
 footer {
   max-height: 800px;
+  ul.items_footer{
+    @include style_none;
+    a {
+      text-decoration: none;
+    }
+  }
+  .flex_row {
+     justify-content: flex-start;
+  }
+  .col_items_footer{
+    width: calc(100%/3);
+     ul.items_footer {
+       margin-top: 30px;
+     }
+  }
+ 
 }
+
