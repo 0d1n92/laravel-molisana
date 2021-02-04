@@ -76,7 +76,7 @@ header #header_bottom ul#navbar > li a {
 
 main #container_products {
   padding-top: 30px;
-  background: url("/../../img/bg_products.jpg");
+  background: url("/img/bg_products.jpg");
   max-height: 1746px;
   min-height: 500px;
 }
@@ -90,6 +90,7 @@ main #container_products #container_pasta {
 }
 main #container_products #container_pasta .card_pasta {
   margin-right: 10px;
+  margin-bottom: 10px;
   width: calc( 100% / 3 - 30px );
   min-width: 384px;
 }
@@ -98,7 +99,11 @@ main #container_products #container_pasta .card_pasta img {
 }
 
 footer {
+  background-image: url("/img/footer-montagne-bottom.jpg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
   max-height: 800px;
+  padding-bottom: 100px;
 }
 footer ul.items_footer {
   list-style: none;

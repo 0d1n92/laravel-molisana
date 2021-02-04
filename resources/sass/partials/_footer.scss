@@ -1,5 +1,9 @@
 footer {
+  background-image: url("/img/footer-montagne-bottom.jpg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
   max-height: 800px;
+  padding-bottom: 100px;
   ul.items_footer{
     @include style_none;
     a {
