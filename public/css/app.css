@@ -94,8 +94,32 @@ main #container_products #container_pasta .card_pasta {
   width: calc( 100% / 3 - 30px );
   min-width: 384px;
 }
+main #container_products #container_pasta .card_pasta .wrapper_card {
+  position: relative;
+  width: 380px;
+}
+main #container_products #container_pasta .card_pasta .wrapper_card:hover .blanket {
+  display: block;
+}
+main #container_products #container_pasta .card_pasta .wrapper_card .blanket {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background-color: rgba(134, 191, 208, 0.8);
+}
+main #container_products #container_pasta .card_pasta .wrapper_card .blanket h2 {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 main #container_products #container_pasta .card_pasta img {
-  height: 230px;
+  width: 380px;
 }
 
 footer {

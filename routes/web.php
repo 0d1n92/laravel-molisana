@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    include __DIR__."/database.php";
+    $data= config('db_pasta'); //per passare config che stanno nella cartella omonima (db_pasta.php)
     
     $lunghe = [];
     $corte = [];
